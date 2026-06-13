@@ -17,6 +17,9 @@ system_prompt: >
   the slot.
 schedule: daily @ 08:00
 runtime: auto
+skills:
+  - web-search
+  - email
 license: MIT
 compatibility: Web access to reach EDGAR and public funding press, an IMAP mailbox receiving the funding newsletter, a target account list the runner can read, durable storage for the seen-state, and outbound email for the digest.
 ---

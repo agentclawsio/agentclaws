@@ -16,6 +16,9 @@ system_prompt: >
   verify rather than smoothing it over. Call out signal versus noise.
 schedule: weekdays @ 07:30
 runtime: auto
+skills:
+  - email
+  - spreadsheet
 license: MIT
 compatibility: An IMAP mailbox receiving accounts receivable and customer threads, a payment-terms file the runner can read, durable storage for the aging ledger it keeps between runs, and outbound email for the report.
 ---

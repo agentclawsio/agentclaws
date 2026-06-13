@@ -25,7 +25,9 @@ dependencies, send nothing.
 
 - **Unattended automation.** Anything you can ask a coding agent to do once, a claw can do over and over without you in the loop.
 - **One portable file.** A claw is a single `CLAW.md` with no companion assets, so it copies, reviews, and version-controls like any other text file.
-- **Scheduled or on demand.** Add a `schedule` and a runner executes the claw on its own cadence. Leave it out and the claw runs only when you ask.
+- **Scheduled or on demand.** Add a `schedule` and a runner executes the claw on its own cadence. Leave it out and the claw runs only when you ask, whether a manual run or an external trigger such as a webhook.
+- **Concurrency control.** A claw can declare what happens when a run is requested while another run is already active, so overlapping requests can be skipped, allowed, queued, or made to replace the active run.
+- **Declarative skills.** A claw can name the [Agent Skills](https://agentskills.io) a runner should load. The field is advisory, so a runner honors the names it recognizes and ignores the rest.
 - **Cross-product reuse.** The format is vendor-neutral, so the same `CLAW.md` runs on any compatible runner.
 
 ## How do Agent Claws work
